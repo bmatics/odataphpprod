@@ -1,5 +1,5 @@
 {
-    "name": "adrotec/odataphpprod",
+    "name": "bmatics/odataphpprod",
     "type": "library",
     "description": "OData Producer for PHP",
     "keywords": [ "rest", "odata" ],
@@ -12,6 +12,10 @@
         {
             "name": "Microsoft Open Technologies, Inc.",
             "email": "msopentech@microsoft.com"
+        },
+        {
+            "name": "Ben Matics",
+            "email": "benjaminmatics@gmail.com"
         }
     ],
     "minimum-stability": "stable",
