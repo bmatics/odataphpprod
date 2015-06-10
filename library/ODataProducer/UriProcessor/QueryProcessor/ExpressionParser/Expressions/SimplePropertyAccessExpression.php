@@ -78,7 +78,7 @@ class SimplePropertyAccessExpression extends AbstractExpression
         $this->parent = $parent;
         $this->child = null;
         $this->nodeType = ExpressionType::PROPERTYACCESS;
-        $this->identifier = $property;
+        $this->property = $property;
 
         $this->type = new \ODataProducer\Providers\Metadata\Type\String();
 
