@@ -32,13 +32,7 @@
  *
  */
 namespace ODataProducer\UriProcessor\QueryProcessor\ExpressionParser\Expressions;
-use ODataProducer\UriProcessor\QueryProcessor\FunctionDescription\FunctionDescription;
-use ODataProducer\UriProcessor\QueryProcessor\ExpressionParser\Expressions\LogicalExpression;
-use ODataProducer\UriProcessor\QueryProcessor\ExpressionParser\Expressions\AbstractExpression;
-use ODataProducer\Providers\Metadata\ResourceTypeKind;
-use ODataProducer\Providers\Metadata\ResourceProperty;
-use ODataProducer\Providers\Metadata\Type\Navigation;
-use ODataProducer\Providers\Metadata\Type\Boolean;
+
 /**
  * Expression class for property access.
  *
