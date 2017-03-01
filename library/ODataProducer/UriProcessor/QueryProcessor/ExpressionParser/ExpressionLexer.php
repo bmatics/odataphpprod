@@ -586,7 +586,7 @@ class ExpressionLexer
     {
         do {
             $this->_nextChar();
-        } while (Char::isLetterOrDigit($this->_ch) || $this->_ch == '_');
+        } while (Char::isLetterOrDigit($this->_ch) || $this->_ch == '_' || $this->_ch == '.');
     }
     
     /**
